@@ -281,6 +281,14 @@ For example, the default setting `--preprocess resize_and_crop --load_size 286 -
 
 More preprocessing options can be added by modifying [`get_transform()`](https://github.com/taesungp/contrastive-unpaired-translation/blob/master/data/base_dataset.py#L82) of `base_dataset.py`. 
 
+## Our Used
+I used CUT to transform simulator images into real-world images. The simulator images were collected using [SUSTAINA-OP_Webots](https://github.com/RikuYokoo/SUSTAINA-OP_Webots/tree/master/webots/controllers/collect_image). The real-world images were taken on a RoboCup Humanoid League Kid Size field at the RoboCup 2023 venue. The links to each set of images are shown below.
+
+- [Real Envoironment](https://drive.google.com/drive/folders/1RTYm2qhv0YghJU2Y3P-NMsbP0RJF3zkH?usp=drive_link)
+- [Simulator](https://drive.google.com/drive/folders/1741eJNMgORTeHirlFBRr2MQs7IZvanh0?usp=drive_link)
+- [Generate](https://drive.google.com/drive/folders/1OghYQO3z35KoGIqpge6mMNPj0PhC9R0E?usp=drive_link)
+
+reference：https://github.com/HiddeLekanne/Robocup-SPL-Simulated2Real 
 
 ### Citation
 If you use this code for your research, please cite our [paper](https://arxiv.org/pdf/2007.15651).
